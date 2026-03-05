@@ -1,4 +1,3 @@
-cat << 'EOF' > ~/spectral-universality-repo/README.md
 # Spectral RMT Pipeline
 
 RMT spectral analysis of neural network representations and embedding spaces.
@@ -49,9 +48,3 @@ B200 burst results (Qwen 72B, Llama, Qwen 7B, Mistral 7B) available on request. 
 ## Author
 
 Joseph Hayden — shadow@shdwcorp.cloud
-EOF
-
-cd ~/spectral-universality-repo
-git add README.md
-git commit -m "add README"
-git push
